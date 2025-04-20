@@ -2,7 +2,7 @@ extends CharacterBody3D
 
 
 @onready var camera : Camera3D = $Camera
-@onready var s_b_00 : SpringBoneSimulator3D = $"Armature/Skeleton/Spring Bone 00"
+@onready var s_b_00 : SpringBoneSimulator3D = $ordek/Skeleton3D/boyun
 
 var SPEED         : float = 0.00
 var JUMP_VELOCITY : float = 4.50
