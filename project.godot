@@ -29,7 +29,7 @@ settings/physics_interpolation/enable_warnings=false
 window/size/viewport_width=1366
 window/size/viewport_height=768
 window/size/resizable=false
-window/vsync/vsync_mode=0
+window/vsync/vsync_mode=2
 
 [input]
 
@@ -71,10 +71,13 @@ shift_key={
 
 [physics]
 
-3d/run_on_separate_thread=true
+common/physics_jitter_fix=1.0
 3d/physics_engine="Jolt Physics"
 
 [rendering]
 
 textures/default_filters/anisotropic_filtering_level=0
+camera/depth_of_field/depth_of_field_use_jitter=true
+lightmapping/denoising/denoiser=1
 anti_aliasing/quality/use_taa=true
+anti_aliasing/quality/use_debanding=true
